@@ -17,13 +17,13 @@ For retraining the CNN:
 *  Takes a 135x135 RGBA array of an image as input
 *  Gives x and y coordinate of object in picture as output
 *  Uses a regression model to find the values
-  *   Difficulties emerged because CNN archictures are usually used with classification tasks, hence little documentation
+&emsp;*   Difficulties emerged because CNN archictures are usually used with classification tasks, hence little documentation
 *  Training specifications:
-  *   run cells of 'cnn/training.ipynb' or run 'cnn/cnn.py'
-  *   Trained on Intel Core i7-1335U processor
-  *   480 epochs
-  *   MSE: 5e-6
-  *   Average distance error: 2.7 mm
+&emsp;*   run cells of 'cnn/training.ipynb' or run 'cnn/cnn.py'
+&emsp;*   Trained on Intel Core i7-1335U processor
+&emsp;*   480 epochs
+&emsp;*   MSE: 5e-6
+&emsp;*   Average distance error: 2.7 mm
 
 #### Rapidly-exploring Random Tree for obstacle avoidance
 * Takes in the obstacles in the simulation environment and a start and end joint configuration of the robot as input
